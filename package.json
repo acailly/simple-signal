@@ -1,0 +1,26 @@
+{
+  "name": "simple-signal",
+  "main": "start.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "start": "node start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acailly/simple-signal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acailly/simple-signal/issues"
+  },
+  "homepage": "https://github.com/acailly/simple-signal#readme",
+  "dependencies": {
+    "inherits": "^2.0.4",
+    "nanobus": "^4.5.0",
+    "socket.io": "^3.1.2"
+  }
+}

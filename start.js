@@ -1,5 +1,5 @@
 const io = require("socket.io")(); // create a socket.io server
-var SimpleSignalServer = require("./../../server/src/index"); // require('simple-signal-server')
+var SimpleSignalServer = require("./server/src/index"); // require('simple-signal-server')
 var signal = new SimpleSignalServer(io);
 
 const rooms = {};
@@ -33,5 +33,5 @@ signal.on("discover", (request) => {
   }
 });
 
-console.log("Running lobbys demo! Open http://localhost:8000");
+console.log("discovery server started on port 3000!");
 io.listen(3000);
